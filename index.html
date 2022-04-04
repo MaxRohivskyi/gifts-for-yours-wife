@@ -14,33 +14,29 @@
 </head>
 <body>
     <!-- Шапка сайту -->
-    <div class="container">
-        <header class="page-header">
+    <header class="page-header">
             <nav class="main-nav">
-                <a href="./index.html" class="logo-nav">logo</a>
+                <a href="./index.html" class="logo logo-nav">logo</a>
                 <ul class="site-nav list">
-                    <li class="item-nav"><a href="./index.html">Home</a></li>
-                    <li class="item-nav"><a href=""></a>About</li>
-                    <li class="item-nav"><a href=""></a>Service</li>
-                    <li class="item-nav"><a href=""></a>Blog</li>
+                    <li class="item-nav"><a href="./index.html" class="link">Home</a></li>
+                    <li class="item-nav"><a href="./index.html" class="link">About</a></li>
+                    <li class="item-nav"><a href="./index.html" class="link">Service</a></li>
+                    <li class="item-nav"><a href="./index.html" class="link">Blog</a></li>
                 </ul>
+                <button type="button" class="btn-nav primary pointer">Gift Finder</button>
             </nav>
-            <button type="button" class="btn-nav primary pointer">Gift Finder</button>
-        </header>
-    </div>
+    </header>
 
     <!-- Герой -->
     <main>
-        <section>
-            <div class="container">
+        <section class="hero container-hero">
+            <div class="hero-content">
                 <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
                 <p class="hero-text">Struggling to find a gift for your wife or girlfriend?
                 No problem!</p>
                 <button type="button" class="btn-hero primary pointer">Find gift now</button>
             </div>
-            <div>
-                <img src="./img/Background.jpg" alt="Background" width="719" height="700">
-            </div>
+            <img src="./img/Background.jpg" alt="Background" width="719" height="700">
         </section>
 
         <!-- Концепція компанії -->
@@ -53,7 +49,7 @@
                 <button type="button" class="btn-concept primary pointer">Learn More</button>
             </div>
             <div>
-                <img src="./img/Media Background.jpg" alt="Media Background" width="719" height="700">
+                <img src="./img/Media-Background.jpg" alt="Media Background" width="719" height="700">
             </div>
         </section>
 
@@ -120,7 +116,7 @@
                     <button type="button" class="btn-order primary pointer">Find gift now</button>
                 </li>
                 <li class="order-item">
-                    <button type="button class=" class="btn-order primary pointer">how it works</button>
+                    <button type="button" class="btn-order primary pointer">how it works</button>
                 </li>
             </ul>
         </section>
@@ -166,10 +162,10 @@
         <div class="container">
             <ul class="footer-nav list">
                 <li class="footer-item"><a href="./index.html">Home</a></li>
-                <li class="footer-item"><a href=""></a>About</li>
-                <li class="footer-item logo-footer"><a href=""></a>logo</li>
-                <li class="footer-item"><a href=""></a>Service</li>
-                <li class="footer-item"><a href=""></a>Blog</li>
+                <li class="footer-item"><a href="./index.html">About</a></li>
+                <li class="footer-item"><a href="./index.html" class="logo logo-footer">logo</a></li>
+                <li class="footer-item"><a href="./index.html">Service</a></li>
+                <li class="footer-item"><a href="./index.html">Blog</a></li>
             </ul>
         </div>
         <div class="container">
@@ -211,7 +207,7 @@
                 </li>
             </ul>
             <p class="footer-text">
-                <span>&#169 2010 — 2020</span>
+                <span>&#169; 2010 — 2020</span>
                 <span>Privacy — Terms</span>
             </p>
         </div>
