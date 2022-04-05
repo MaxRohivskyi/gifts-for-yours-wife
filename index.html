@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:wght@400;600;700&display=swap"
-            rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:wght@400;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- Шапка сайту -->
-    <header class="page-header">
+    <header class="page-header container-hero">
             <nav class="main-nav">
                 <a href="./index.html" class="logo logo-nav">logo</a>
                 <ul class="site-nav list">
@@ -40,16 +40,14 @@
         </section>
 
         <!-- Концепція компанії -->
-        <section>
-            <div class="container">
+        <section class="concept container-concept">
+            <img src="./img/Media-Background.jpg" alt="Media Background" width="719" height="700">
+            <div class="concept-content">
                 <h2 class="concept-title">How we work</h2>
                 <p class="concept-text">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do
                 is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift
                 options.</p>
                 <button type="button" class="btn-concept primary pointer">Learn More</button>
-            </div>
-            <div>
-                <img src="./img/Media-Background.jpg" alt="Media Background" width="719" height="700">
             </div>
         </section>
 
@@ -58,12 +56,12 @@
             <h2 class="examples-title">Gifts for all Occasions</h2>
             <p class="examples-text">“Try our web app to find the best gifts for all occasions”</p>
             <ul class="examples list">
-                <li class="examples">
+                <li class="examples-item">
                     <img src="./img/Media.jpg" alt="Birthday" width="270" height="270">
                     <div class="examples-card">
                         <h3 class="examples-subtitle">Birthday</h3>
                         <details>
-                            <summary>See More ›</summary>
+                            <summary class="details-text">See More ›</summary>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea earum doloremque perferendis magni provident. Ipsum
                             enim ducimus sunt commodi eius!
                         </details>
@@ -74,7 +72,7 @@
                     <div class="examples-card">
                         <h3 class="examples-subtitle">Anniversary</h3>
                         <details>
-                            <summary>See More ›</summary>
+                            <summary class="details-text">See More ›</summary>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea earum doloremque perferendis magni provident. Ipsum
                             enim ducimus sunt commodi eius!
                         </details>
@@ -85,7 +83,7 @@
                     <div class="examples-card">
                         <h3 class="examples-subtitle">Valentine's Day</h3>
                         <details>
-                            <summary>See More ›</summary>
+                            <summary class="details-text">See More ›</summary>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea earum doloremque perferendis magni provident. Ipsum
                             enim ducimus sunt commodi eius!
                         </details>
@@ -96,7 +94,7 @@
                     <div class="examples-card">
                         <h3 class="examples-subtitle">Christmas</h3>
                         <details>
-                            <summary>See More ›</summary>
+                            <summary class="details-text">See More ›</summary>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aspernatur vitae incidunt, possimus amet id ipsam
                             adipisci voluptatum mollitia sapiente.
                         </details>
@@ -106,7 +104,7 @@
         </section>
 
         <!-- Замовити подарунок -->
-        <section class="section-order container">
+        <section class="section-order container-hero">
             <div class="order-card">
                 <h2 class="order-title">Ready to get started?</h2>
                 <p class="order-text">Sign up or contact us</p>
