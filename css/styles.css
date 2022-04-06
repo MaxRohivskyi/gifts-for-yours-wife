@@ -78,8 +78,6 @@ img {
 /* logo */
 
 .logo {
-    margin-left: 80px;
-
     font-family: Homemade Apple, sans-serif;
     font-size: 18px;
     line-height: 2.17;
@@ -87,19 +85,13 @@ img {
 }
 
 .logo-nav {
+    margin-left: 80px;
+
     color: var(--secondary-accent-color);
 }
 
 .logo-nav:hover {
     color: var(--accent-color);
-}
-
-.logo-footer {
-    color: var(--accent-color);
-}
-
-.logo-footer:hover {
-    color: var(--secondary-accent-color);
 }
 
 /* main-nav */
@@ -120,7 +112,7 @@ img {
     margin-right: 31px;
 }
 
-.site-nav .link {
+.site-nav .nav-link {
     display: block;
     padding-top: 47px;
     padding-bottom: 47px;
@@ -267,7 +259,6 @@ img {
 /* Examples */
 
 .section-examples {
-    background-color: var(--primary-white-color);
     padding-top: 96px;
     padding-bottom: 137px;
 }
@@ -392,4 +383,219 @@ img {
 
 /* blog */
 
+.section-blog {
+    padding-top: 88px;
+    padding-bottom: 80px;
+}
 
+.blog-title {
+    margin-bottom: 22px;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.22;
+    text-align: center;
+}
+
+.blog-text {
+    margin-bottom: 71px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+.blog-about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin-bottom: 40px;
+
+    background-color: var(--secondary-accent-color);
+}
+
+.blog-img:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.blog-post {
+    width: calc(100% - 678px);
+    margin: auto;
+}
+
+.post-subtitle {
+    margin-bottom: 37px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.41;
+
+    color: var(--primary-white-color);
+}
+
+.post-caption {
+    margin-bottom: 60px;
+
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.22;
+
+    color: var(--primary-white-color);
+}
+
+.post-link {
+    display: block;
+
+    color: var(--primary-white-color);
+
+    font-size: 18px;
+    line-height: 1.41;
+    text-decoration: none;
+}
+
+.blog-link:hover,
+.blog-link:focus {
+    color: var(--accent-color);
+}
+
+/* blog-card */
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-item {
+    width: calc((100% - 30px) / 2);
+
+    padding: 48px 48px 50px 48px;
+    margin-right: 30px;
+
+    background-color: var(--primary-white-color);
+}
+
+.blog-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.blog-item:hover {
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card-subtitle {
+    margin-bottom: 16px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.41;
+}
+
+.card-text {
+    margin-bottom: 16px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.41;
+}
+
+.card-details {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.41;
+}
+
+/* footer */
+.footer {
+    padding-top: 106px;
+    padding-bottom: 35px;
+
+    background-color: var(--section-background-color);
+}
+
+/* footer-nav */
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border-bottom: 1px solid var(--primary-text-color);
+}
+
+.footer-item {
+    width: calc((100% - 228px) / 5);
+    margin-bottom: 53px;
+}
+
+.footer-link {
+    color: var(--primary-text-color);
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.41;
+    text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color);
+}
+
+.logo-footer {
+    color: var(--accent-color);
+}
+
+.logo-footer:hover {
+    color: var(--secondary-accent-color);
+}
+
+
+/* footer-social */
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.social-item {
+    margin-right: 26px;
+}
+
+.social-item:nth-child(5n) {
+    margin-right: 0;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38.4px;
+    height: 38.4px;
+
+    border-radius: 50%;
+    color: var(--primary-white-color);
+    background-color: var(--section-background-color);
+}
+
+.icon {
+    --primary-white-color: currentColor;
+}
+
+.social-link:hover {
+    background-color: var(--accent-color);
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+
+.text-item {
+    margin-top: 72.8px;
+    margin-right: 2px;
+}
+.text-item:nth-child(2n) {
+    margin-right: 0;
+}
