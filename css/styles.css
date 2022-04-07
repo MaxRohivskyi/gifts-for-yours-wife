@@ -524,6 +524,8 @@ img {
 }
 
 .footer-item {
+    display: flex;
+    justify-content: center;
     width: calc((100% - 228px) / 5);
     margin-bottom: 53px;
 }
