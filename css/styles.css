@@ -598,7 +598,6 @@ img {
 
 .footer-link {
     color: var(--primary-text-color);
-    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.41;
@@ -646,9 +645,10 @@ img {
     width: 38.4px;
     height: 38.4px;
 
-    border-radius: 50%;
     color: var(--primary-white-color);
+
     background-color: var(--section-background-color);
+    border-radius: 50%;
 
     transition: background-color var(--time-animation) var(--timing-function);
 }
